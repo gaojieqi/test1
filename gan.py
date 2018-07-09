@@ -42,6 +42,7 @@ D = nn.Sequential(                      # Discriminator
     nn.Sigmoid(),                       # tell the probability that the art work is made by artist
 )
 
+
 G = G.cuda()
 D = D.cuda()
 
